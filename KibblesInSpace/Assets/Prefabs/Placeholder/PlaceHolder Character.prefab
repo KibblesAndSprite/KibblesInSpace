@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: -7117167159113116402}
   - component: {fileID: 1985967884460952245}
   - component: {fileID: -283818362507411241}
+  - component: {fileID: 7368450273697343387}
   - component: {fileID: 6242651321666798678}
   m_Layer: 0
   m_Name: PlaceHolder Character
@@ -201,6 +202,18 @@ MonoBehaviour:
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!114 &7368450273697343387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3652906594381550081}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6566f16f3707bb646b271cc6b5dbbe48, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &6242651321666798678
 MonoBehaviour:
   m_ObjectHideFlags: 0

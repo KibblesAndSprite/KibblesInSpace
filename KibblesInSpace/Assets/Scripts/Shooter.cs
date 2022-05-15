@@ -21,7 +21,7 @@ public class Shooter : MonoBehaviour
 
     private void Start()
     {
-        _isFireing = true;
+        _isFireing = true; // THIS NEEDS TO BE REMOVED. WILL CHANGE!
         StartCoroutine(Fire());
     }
 
@@ -31,7 +31,7 @@ public class Shooter : MonoBehaviour
 
         for (int i = 0; i < _poolGameObjects.Length; i++)
         {
-            _poolGameObjects[i] = Instantiate(_projectilePrefab, transform);
+            _poolGameObjects[i] = Instantiate(_projectilePrefab, new Vector2(gameObject.transform.position.x, gameObject.transform.position.y), gameObject.transform.rotation);
             _poolGameObjects[i].SetActive(false);
         }
     }
